@@ -1,3 +1,6 @@
+puts 'clearing out old birds..'
+Bird.destroy_all
+
 puts '🦩 Seeding birds...'
 
 Bird.create!(name: 'Black-Capped Chickadee', species: 'Poecile Atricapillus')
